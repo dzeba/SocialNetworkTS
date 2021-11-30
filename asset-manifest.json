@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/SocialNetworkTS/static/css/main.a23471bd.chunk.css",
+    "main.js": "/SocialNetworkTS/static/js/main.45d982ee.chunk.js",
+    "main.js.map": "/SocialNetworkTS/static/js/main.45d982ee.chunk.js.map",
+    "runtime-main.js": "/SocialNetworkTS/static/js/runtime-main.71d08a7a.js",
+    "runtime-main.js.map": "/SocialNetworkTS/static/js/runtime-main.71d08a7a.js.map",
+    "static/js/2.41c97084.chunk.js": "/SocialNetworkTS/static/js/2.41c97084.chunk.js",
+    "static/js/2.41c97084.chunk.js.map": "/SocialNetworkTS/static/js/2.41c97084.chunk.js.map",
+    "static/js/3.afc85f0d.chunk.js": "/SocialNetworkTS/static/js/3.afc85f0d.chunk.js",
+    "static/js/3.afc85f0d.chunk.js.map": "/SocialNetworkTS/static/js/3.afc85f0d.chunk.js.map",
+    "index.html": "/SocialNetworkTS/index.html",
+    "static/css/main.a23471bd.chunk.css.map": "/SocialNetworkTS/static/css/main.a23471bd.chunk.css.map",
+    "static/js/2.41c97084.chunk.js.LICENSE.txt": "/SocialNetworkTS/static/js/2.41c97084.chunk.js.LICENSE.txt",
+    "static/media/Login.module.css": "/SocialNetworkTS/static/media/LoginForm.df9c724b.jpg",
+    "static/media/Spinner.5cc945e4.svg": "/SocialNetworkTS/static/media/Spinner.5cc945e4.svg",
+    "static/media/Header.module.css": "/SocialNetworkTS/static/media/bg_header.1108bc73.png",
+    "static/media/Dialogs.module.css": "/SocialNetworkTS/static/media/messageFon.2d5663d3.jpg",
+    "static/media/ProfileInfo.module.css": "/SocialNetworkTS/static/media/original177.4026cba4.jpg",
+    "static/media/UpdateProfileInfo.module.css": "/SocialNetworkTS/static/media/settingsFon.488f364a.jpg",
+    "static/media/Users.module.css": "/SocialNetworkTS/static/media/usersFon.7dca99f0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.71d08a7a.js",
+    "static/js/2.41c97084.chunk.js",
+    "static/css/main.a23471bd.chunk.css",
+    "static/js/main.45d982ee.chunk.js"
+  ]
+}
