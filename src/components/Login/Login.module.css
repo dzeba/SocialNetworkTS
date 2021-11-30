@@ -1,0 +1,56 @@
+.login{
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    background-size: 100%;
+    padding-bottom: 100px;
+    background:linear-gradient( rgba(100, 100, 100, 0.7), rgba(0, 0, 0, 0.9) ),
+    #282c34 url(../../assets/LoginForm.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 2px;
+}
+.formLoginInput{
+    padding:10px;
+    border:0;
+    background-color: #fafafa;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 5px;
+    width: 150px;
+    height: 10px;
+    margin-left: 50px;
+}
+.formLoginCheckbox{
+    padding:10px;
+    border:0;
+    background-color: #fafafa;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    margin-left: 50px;
+}
+.loginButton{
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    margin: 30px 10px 10px 120px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+.loginButton:hover{
+    background-color: black;
+    color: white;
+}
+.loginText{
+    margin-left: 80px;
+    font-size: 40px;
+    margin-bottom: 30px;
+
+}

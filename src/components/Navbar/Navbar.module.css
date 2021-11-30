@@ -1,0 +1,31 @@
+.nav{
+    grid-area: n;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.item a{
+    color: #282c34;
+    text-decoration: none;
+}
+.item a.activeLink{
+    color: gold;
+}
+.item{
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    border: solid transparent 2px;
+}
+.item:hover{
+    border: solid black 2px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+    width: 160px;
+}

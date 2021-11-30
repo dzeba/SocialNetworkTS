@@ -1,0 +1,85 @@
+.dialogs {
+    display: grid ;
+    grid-template-columns: 4fr 8fr;
+    width: 100%;
+    background-size: 100%;
+    padding-bottom: 100px;
+    background:linear-gradient( rgba(100, 100, 100, 0.7), rgba(0, 0, 0, 0.9) ),
+    #282c34 url(../../assets/messageFon.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.dialogItem{
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: solid transparent 2px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.dialogItem a{
+    text-decoration: none;
+    color: white;
+}
+
+.dialogItem .active{
+    color: gold;
+}
+.message{
+    color: white;
+    font-size: 18px;
+    padding-top: 10px;
+
+}
+.addMessageButton{
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+.addMessageButton:hover{
+    background-color: black;
+    color: white;
+}
+.addMessageInput{
+    padding:10px;
+    border:0;
+    background-color: #fafafa;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 5px;
+    width: 300px;
+    height: 70px;
+    margin-top: 20px;
+}
+.messageSettings{
+    width: 100px;
+    height: 100px;
+
+}
+.item{
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    border: solid transparent 2px;
+}
+.settingsBlock{
+    position: absolute;
+    left: 80%;
+}

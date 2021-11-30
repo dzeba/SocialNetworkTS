@@ -1,0 +1,73 @@
+.userPage{
+    display: grid;
+    grid-template-areas:
+  "n c";
+    grid-template-columns: 2fr 10fr;
+    color: white;
+}
+.usersPage{
+    width: 100%;
+    background-size: 100%;
+    padding-bottom: 100px;
+    background:linear-gradient( rgba(100, 100, 100, 0.7), rgba(0, 0, 0, 0.9) ),
+    #282c34 url(../../assets/usersFon.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.leftSide{
+    grid-area: n;
+}
+
+.leftSide img{
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    border-radius: 100px;
+
+}
+.leftSide button{
+    width: 100px;
+}
+.rightSide{
+    grid-area: c;
+    width: 80%;
+    font-size: 20px;
+}
+.status{
+    text-align: right;
+    margin-top: 20px;
+
+}
+
+.preloader{
+    position: absolute;
+}
+.followButton{
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 10px 10px 80px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+.followButton:disabled{
+    background-color: gray;
+}
+.followButton:hover{
+    background-color: black;
+    color: white;
+}
+.followButton:hover:disabled{
+    background-color: gray;
+}
+.userName{
+    font-size: 30px;
+    margin-top: 30px;
+}

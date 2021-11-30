@@ -1,0 +1,24 @@
+.selectedPage{
+    font-weight: bold;
+}
+.paginator{
+    display: grid;
+    align-self: center;
+    grid-template-columns: repeat(7, 70px);
+    justify-content: center;
+}
+.paginator button{
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.paginator button:hover{
+    background-color: black;
+    color: white;
+}

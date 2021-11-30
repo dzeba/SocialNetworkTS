@@ -1,0 +1,43 @@
+
+.header{
+    width: 100%;
+    grid-area: h;
+    background-size: 100%;
+    background: #60606e url(../../assets/bg_header.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header img{
+    width: 160px;
+    height: 100px;
+    padding: 20px;
+}
+.loginBlock{
+    float: right;
+    padding: 10px;
+    margin: 30px;
+}
+.headerText{
+    font-size: 25px;
+    color: white;
+    font-family: Gill Sans, sans-serif;
+}
+.loginButton{
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+.loginButton:hover{
+    background-color: black;
+    color: white;
+}
